@@ -7,6 +7,10 @@ public class CaseCheck {
         Scanner sc = new Scanner(System.in);
         char ch = sc.next().trim().charAt(0);
 //        String word = "Hello";
-        System.out.println(ch);
+        if(ch >= 'a' && ch <= 'z'){
+            System.out.println("Lowercase");
+        }else {
+            System.out.println("Uppercase");
+        }
     }
 }

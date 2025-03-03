@@ -20,13 +20,20 @@ public class Conditionals {
 //        }
 
 //        multiple if else
-        if(salary > 10000 && salary < 20000){
-            salary += 2000; //salary = salary + 2000;
-        }else if(salary > 20000){
-            salary += 3000;
-        }else{
-            salary += 1000;
+//        if(salary > 10000 && salary < 20000){
+//            salary += 2000; //salary = salary + 2000;
+//        }else if(salary > 20000){
+//            salary += 3000;
+//        }else{
+//            salary += 1000;
+//        }
+//        System.out.println(salary);
+
+        int a = 10;
+        int b = 20;
+
+        if(a == 10 || b == 20){
+            System.out.println("Hello World!");
         }
-        System.out.println(salary);
     }
 }
