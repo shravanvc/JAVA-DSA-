@@ -1,7 +1,7 @@
 package com.shravan;
     public class CFG {
         // Java Program to demonstrate Brute Force Method to check if a number is prime
-        static boolean isPrime(int n)
+        public static boolean isPrime(int n)
         {
             // Corner case
             if (n <= 1)
