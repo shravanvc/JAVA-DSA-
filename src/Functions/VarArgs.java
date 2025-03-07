@@ -13,6 +13,7 @@ public class VarArgs {
     }
 
     static void demo(int ...v){
+
         System.out.println(Arrays.toString(v));
     }
 
