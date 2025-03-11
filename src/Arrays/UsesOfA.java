@@ -1,5 +1,7 @@
 package Arrays;
 
+import java.util.Arrays;
+
 public class UsesOfA {
     public static void main(String[] args) {
         // Q: store a roll number
@@ -24,5 +26,8 @@ public class UsesOfA {
         System.out.println(arr[2]);
 
 
+        for(String element : arr){
+            System.out.println(element);
+        }
     }
 }

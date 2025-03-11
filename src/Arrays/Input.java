@@ -19,9 +19,9 @@ public class Input {
         //System.out.println(arr[4]);
 
         // input using for loops
-//        for (int i = 0; i < arr.length; i++) {
-//            arr[i] = in.nextInt();
-//        }
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = in.nextInt();
+        }
 //
 //        System.out.println(Arrays.toString(arr));
 
