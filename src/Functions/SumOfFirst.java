@@ -16,4 +16,5 @@ public class SumOfFirst {
         return sum;
     }
 }
-
+git commit -m "first commit"
+git push -u origin main
